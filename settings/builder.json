@@ -26,12 +26,12 @@
     "orientation": "portrait"
   },
   "renderMode": "0",
-  "startScene": "5333efe9-5cb8-4d80-ac32-fd3c440e6857",
+  "startScene": "e51b82a8-bb16-4e8a-8154-289bfe8ace90",
   "title": "creatorDemo_v1102",
   "webOrientation": "auto",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
+    "appid": "wx1d3ed427165712ea",
     "isSubdomain": false,
     "orientation": "portrait",
     "subContext": ""
