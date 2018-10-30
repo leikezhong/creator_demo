@@ -40,7 +40,7 @@ cc.Class({
 
     wxLogin:function (btnNode) {
         var self = this;
-        if(cc.sys.platform == cc.sys.WECHAT_GAME){
+        if(CC_WECHATGAME){
             wx.login({
                 success: function () {
                     console.log("login success!");
@@ -75,8 +75,9 @@ cc.Class({
                     button.onTap((res) => {
                         console.log("onTap: ",res);
                         if (res.userInfo) {
+                            button.hide();
                             game.wxManager.userInfo = res.userInfo;
-                            cc.director.loadScene("mainScene");
+                            cc.director.loadScene("rankingScene");
                             console.log("wxLogin auth success");
                             // wx.showToast({title:"授权成功"});
                         }else {
@@ -90,7 +91,7 @@ cc.Class({
     },
 
     start () {
-        cc.director.preloadScene("mainScene", function () {
+        cc.director.preloadScene("rankingScene", function () {
             cc.log("Next scene preloaded");
         });
     },

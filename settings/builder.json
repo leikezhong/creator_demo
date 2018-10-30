@@ -34,7 +34,7 @@
     "appid": "wx1d3ed427165712ea",
     "isSubdomain": false,
     "orientation": "portrait",
-    "subContext": ""
+    "subContext": "SubGame"
   },
   "xxteaKey": "b73e41a0-d7a0-48",
   "zipCompressJs": true
